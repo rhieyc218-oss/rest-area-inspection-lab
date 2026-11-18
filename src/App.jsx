@@ -98,7 +98,7 @@ function App() {
     <div className="shell">
       <header className="topbar">
         <div className="topbar-inner">
-          <div className="brand"><div className="brand-icon"><Icon name="clipboard" size={22}/></div><div><strong>휴게소 시설점검</strong><span>배포 · DB 연결 실습</span></div></div>
+          <div className="brand"><div className="brand-icon"><Icon name="clipboard" size={22}/></div><div><strong>우리 팀 시설점검</strong><span>배포 · DB 연결 실습</span></div></div>
           <div className="topbar-right"><span className="topbar-education"><span className="education-dot"/>교육용 데모</span><span className="topbar-sep"/><span className="topbar-version">v1.0</span></div>
         </div>
       </header>
@@ -107,7 +107,7 @@ function App() {
         <section className="page-heading">
           <div>
             <div className="eyebrow"><span className="eyebrow-line"/> FACILITY INSPECTION DASHBOARD</div>
-            <h1>휴게소 시설점검 <span>현황판</span></h1>
+            <h1>우리 팀 시설점검 <span>현황판</span></h1>
             <p className="page-description">노선별 휴게소 시설점검 현황을 확인하고 관리 상태를 한눈에 살펴보세요.</p>
           </div>
           <div className="heading-actions"><button type="button" className="btn-refresh" disabled={isLoading} onClick={() => void loadItems()}><Icon name="refresh" size={17}/>{isLoading ? '조회 중...' : '데이터 새로고침'}</button></div>
